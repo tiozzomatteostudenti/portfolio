@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     font-family: "Prompt", sans-serif;
+    font-size: 20pt;
 }
 
 /* Palette chiara */
@@ -27,7 +28,7 @@
     --secondaryGradient_darkMode: #4d4d4d;
     --tertiaryGradient_darkMode: #00E676;
     --quadriaryGradient_darkMode: #343434;
-    --senaryGradient_darkMode: #FFFFFF;
+    --senaryGradient_darkMode: #f9f4ea;
     --textColor_darkMode: #FFFFFF;
     --bg_darkMode: #252525
 }
@@ -57,13 +58,11 @@
         --secondaryGradient: #4d4d4d;
         --tertiaryGradient: #00E676;
         --quadriaryGradient: #343434;
-        --senaryGradient: #FFFFFF;
+        --senaryGradient: #f9f4ea;
         --textColor: #FFFFFF;
         --bg: #252525
     }
 }
-
-
 
 html {
     font-size: 100%;
@@ -146,10 +145,6 @@ main {
 
 /* ******* PER GENERALITÀ ******* */
 
-#description {
-    display: none;
-}
-
 #profile {
     display: flex;
     flex-direction: column;
@@ -173,41 +168,10 @@ main {
 
 }
 
-#info {
-    text-align: center;
-    width: 95%;
-    color: #030303;
-}
-
 #immagine {
-    width: 30%;
+    width: 35%;
     padding: 1em;
     border-radius: 2em;
-    margin: 1em 1em 1em 0em;
-    float: left;
-    margin-top: -1em;
-}
-
-#info>dd .aboutme {
-    overflow: hidden;
-    /* border: 1px solid black; */
-    width: 60%;
-    padding: 1em;
-}
-
-.aboutme dt {
-    font-weight: bold;
-    text-align: left;
-    margin-left: -2%;
-}
-
-.aboutme dd {
-    width: 100%;
-    float: right;
-    text-align: left;
-    flex-direction: column;
-    padding: 1em;
-    margin-top: 0em;
 }
 
 .title {
@@ -247,12 +211,11 @@ main {
     content: '';
     position: absolute;
     left: 50%;
-    top: 6.5em;
+    top: 4.5em;
     bottom: 2em;
     width: 1px;
     background-color: black;
 }
-
 
 #tecno,
 #city,
@@ -263,18 +226,28 @@ main {
     background-color: var(--secondaryGradient);
     width: 40%;
     height: 40%;
+    color: var(--textColor);
 }
 
 #city {
     align-self: flex-start;
+    margin-left: 2em;
 }
 
-#tecno {
-    align-self: flex-end;
-}
-
+#tecno,
 #now {
     align-self: flex-end;
+    margin-right: 2em;
+}
+
+#aboutme {
+    border: 1px solid black;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: var(--secondaryGradient);
+    width: 60%;
+    height: auto;
+    color: var(--textColor);
 }
 
 #curriculum {
