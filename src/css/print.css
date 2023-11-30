@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10pt;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.5em;
+    margin: auto;
+    background-color: var(--bg);
+}
+
+:root {
+    --primaryGradient: #e3dbcc;
+    --secondaryGradient: #faf6f1;
+    --tertiaryGradient: #ead6ad;
+    --quadriaryGradient: #efe0c1;
+    --senaryGradient: #f9f4ea;
+    --bg: #F9F9F9;
+}
+
+#info {
+    text-align: center;
+    width: 100%;
+}
+
+.tabout {
+    display: none;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: var(--primaryGradient);
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+#profile h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: .5em;
+
+}
+
+#info {
+    text-align: center;
+    width: 95%;
+    color: #030303;
+}
+
+#immagine {
+    width: 30%;
+    padding: 1em;
+    border-radius: 2em;
+    margin: 1em 1em 1em 0em;
+    float: left;
+    margin-top: -1em;
+}
+
+#info>dd .aboutme {
+    overflow: hidden;
+}
+
+
+.aboutme dt {
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+
+.aboutme dd {
+    margin-bottom: 0.5em;
+    float: left;
+    text-align: left;
+}
+
+.aboutme>ul{
+    text-align: left;
+    margin: 1em 0em 0em 0em;
+    list-style-type: disc;
+}
+
+#experience {
+    padding: 1em;
+}
+
+.experience {
+    display: flex;
+    padding: 1em;
+    background-color: var(--primaryGradient);
+    width: 70%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.experience::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 6.5em;
+    bottom: 2em;
+    width: 1px;
+    background-color: black;
+
+}
+
+#tecno,
+#city,
+#now {
+    border: 1px solid black;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: var(--secondaryGradient);
+}
+
+#city {
+    width: 40%;
+    height: 40%;
+    align-self: flex-start;
+}
+
+#tecno {
+    width: 40%;
+    height: 40%;
+    align-self: flex-end;
+    margin-right: 2em;
+}
+
+#now {
+    width: 40%;
+    height: 40%;
+    align-self: flex-end;
+}
+
+#curriculum {
+    display: none;
+}
+
+.title {
+    display: flex;
+    padding: 0.5em;
+    width: 25%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: .5em;
+    margin-bottom: .5em;
+    background-color: var(--senaryGradient);
+}
+
+#projects {
+    display: none;
+}
+
+footer {
+    padding-top: 1em;
+    border: 1px solid black;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-color: var(--primaryGradient);
+    margin-top: 20em;
+}
+
+
+footer dl#footdef {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+footer dl#footdef div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    font-size: 1.1em;
+    color: #030303
+}
+
+dl#footdef dt {
+    font-weight: bolder;
+}
+
+.print {
+    display: none;
+}
+
+#rights {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #030303;
+    font-weight: normal;
+}

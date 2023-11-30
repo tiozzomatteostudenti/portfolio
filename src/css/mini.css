@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20pt;
+    line-height: 1em;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.tabout {
+    display: none;
+}
+
+/* ******* PER GENERALITÀ ******* */
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    background-color: var(--primaryGradient);
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    border-radius: 1em;
+}
+
+#profile h1 {
+    font-size: 20pt;
+    font-weight: bold;
+    margin: .5em;
+}
+
+#info {
+    width: 100%;
+    margin: auto;
+    color: #030303;
+}
+
+#immagine {
+    width: 35%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: -1em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    float: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#info>dd .aboutme {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    float: center;
+    width: 90%;
+    padding: 2em;
+}
+
+.aboutme {
+    flex-direction: column;
+    float: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.aboutme dt {
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+}
+
+.aboutme dd {
+    width: 100%;
+    float: right;
+    text-align: left;
+    flex-direction: column;
+    padding: 1em;
+    margin-top: 0em;
+}
+
+.skills {
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.title {
+    padding: 0.5em 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+#experience h1 {
+    font-weight: bold;
+    margin: .5em;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    background-color: var(--primaryGradient);
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    border-radius: 1em;
+    position: relative;
+}
+
+.experience::after {
+    display: none;
+}
+
+
+#tecno,
+#city,
+#now {
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: var(--secondaryGradient);
+    width: 70%;
+    height: auto;
+    align-self: center;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: var(--primaryGradient);
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    border: 1px solid black;
+    border-radius: 1em;
+    position: relative;
+}
+
+#projects dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projects .projects-col {
+    border-radius: 1em;
+    width: 70%;
+    height: auto;
+    align-self: center;
+}
+
+.projects-col img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.projects-col dt {
+    font-weight: bold;
+    margin: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: #030303;
+    font-weight: normal;
+}
+
+.projects-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+#curriculum {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#cv {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#CV-container {
+    display: flex;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    border-radius: 1em;
+    justify-content: center;
+    margin-bottom: 5em;
+    border: 1px solid black;
+    padding: 1em;
+    background-color: var(--primaryGradient);
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: var(--primaryGradient);
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5em;
+    border: 1px solid black;
+    border-radius: 1em;
+    position: relative;
+}
+
+#prova,
+#prova1,
+#prova2,
+#divisore {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1em;
+    width: 100%;
+    height: auto;
+    height: auto;
+    align-self: center;
+    margin: 1em;
+}
+
+
+#footdef dt {
+    font-weight: bolder;
+}
+
+
+.print {
+    display: none;
+}
+
+#rights {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#email {
+    word-wrap: break-word;
+    margin-top: auto;
+}
+
+footer p,
+span {
+    text-align: center;
+    color: var(--text-100);
+    padding-top: 1em;
+    font-size: 15pt;
+}
