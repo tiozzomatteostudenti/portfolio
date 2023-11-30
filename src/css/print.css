@@ -36,7 +36,7 @@ html {
     justify-content: center;
     padding: 1em;
     background-color: var(--primaryGradient);
-    width: 80%;
+    width: 90%;
     height: auto;
     margin: auto;
     margin-top: 1em;
@@ -84,7 +84,7 @@ html {
     text-align: left;
 }
 
-.aboutme>ul{
+.aboutme>ul {
     text-align: left;
     margin: 1em 0em 0em 0em;
     list-style-type: disc;
@@ -98,7 +98,7 @@ html {
     display: flex;
     padding: 1em;
     background-color: var(--primaryGradient);
-    width: 70%;
+    width: 90%;
     margin: auto;
     height: auto;
     margin-bottom: 1em;
@@ -111,14 +111,11 @@ html {
 }
 
 .experience::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 6.5em;
-    bottom: 2em;
-    width: 1px;
-    background-color: black;
+    display: none;
+}
 
+.experience::after {
+    display: none;
 }
 
 #tecno,
@@ -128,25 +125,9 @@ html {
     margin: 1em;
     border-radius: 1em;
     background-color: var(--secondaryGradient);
-}
-
-#city {
-    width: 40%;
-    height: 40%;
-    align-self: flex-start;
-}
-
-#tecno {
-    width: 40%;
-    height: 40%;
-    align-self: flex-end;
-    margin-right: 2em;
-}
-
-#now {
-    width: 40%;
-    height: 40%;
-    align-self: flex-end;
+    width: 70%;
+    height: auto;
+    align-self: center;
 }
 
 #curriculum {
@@ -156,7 +137,7 @@ html {
 .title {
     display: flex;
     padding: 0.5em;
-    width: 25%;
+    width: 90%;
     height: auto;
     margin: auto;
     text-align: center;
@@ -172,16 +153,18 @@ html {
     display: none;
 }
 
-footer {
-    padding-top: 1em;
-    border: 1px solid black;
-    width: 90%;
-    height: auto;
-    margin: auto;
-    border-radius: 1em;
-    margin-bottom: 1em;
+#footer {
+    display: flex;
+    padding: 1em;
     background-color: var(--primaryGradient);
-    margin-top: 20em;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 5em;
+    border: 1px solid black;
+    border-radius: 1em;
+    flex-direction: column;
+    position: relative;
 }
 
 
@@ -218,4 +201,37 @@ a {
     text-decoration: none;
     color: #030303;
     font-weight: normal;
+}
+
+#divisore {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#prova {
+    text-align: center;
+    width: 25%;
+    padding: 1em 1em;
+    margin: .6em -.6em;
+    border-radius: 2%;
+    color: #030303;
+}
+
+#prova1 {
+    text-align: center;
+    width: 25%;
+    padding: 1em 1em;
+    margin: .6em -.6em;
+    border-radius: 2%;
+    color: #030303;
+}
+
+#prova2 {
+    text-align: center;
+    width: 25%;
+    padding: 1em 1em;
+    margin: .6em -.6em;
+    border-radius: 2%;
+    color: #030303;
 }
