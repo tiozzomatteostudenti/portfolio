@@ -63,8 +63,8 @@ main {
 }
 
 #immagine {
-    width: 45%;
-    height: auto;
+    width: 50%;
+    height: 50%;
     border-radius: 2em;
     display: block;
     margin: auto;
