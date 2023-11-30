@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 20pt;
+    font-size: 24pt;
     line-height: 1em;
 }
 
@@ -9,6 +9,24 @@ main {
     align-items: center;
     justify-content: center;
     padding: 0.5em;
+}
+
+:root {
+    --primaryGradient_lightMode: #e3dbcc;
+    --secondaryGradient_lightMode: #faf6f1;
+    --tertiaryGradient_lightMode: #ead6ad;
+    --quadriaryGradient_lightMode: #efe0c1;
+    --senaryGradient_lightMode: #f9f4ea;
+    --textColor_lightMode: #030303;
+    --bg_lightMode: #F9F9F9;
+
+    --primaryGradient_darkMode: #FF4081;
+    --secondaryGradient_darkMode: #4d4d4d;
+    --tertiaryGradient_darkMode: #00E676;
+    --quadriaryGradient_darkMode: #343434;
+    --senaryGradient_darkMode: #FFFFFF;
+    --textColor_darkMode: #FFFFFF;
+    --bg_darkMode: #252525
 }
 
 .tabout {
@@ -29,6 +47,9 @@ main {
     margin-top: 1em;
     margin-bottom: 5em;
     border-radius: 1em;
+    align-items: center;
+    text-align: center;
+
 }
 
 #profile h1 {
@@ -44,53 +65,36 @@ main {
 }
 
 #immagine {
-    width: 35%;
+    width: 45%;
     height: auto;
-    margin-top: 1em;
-    margin-bottom: -1em;
     border-radius: 2em;
-    display: flex;
-    flex-direction: column;
-    float: center;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-#info>dd .aboutme {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    float: center;
-    width: 90%;
-    padding: 2em;
+    display: block;
+    margin: auto;
+    padding: auto;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
 }
 
 .aboutme {
     flex-direction: column;
-    float: center;
+    align-items: center;
+    text-align: center;
     width: 100%;
     height: auto;
     margin: auto;
+    padding: 1em, 1em, 1em, 1em;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
 }
+
 
 .aboutme dt {
     font-weight: bold;
-    font-size: 18pt;
-    text-align: center;
+    text-align: left;
 }
 
 .aboutme dd {
-    width: 100%;
-    float: right;
-    text-align: left;
-    flex-direction: column;
-    padding: 1em;
-    margin-top: 0em;
-}
-
-.skills {
-    font-weight: bold;
-    font-size: 18pt;
+    text-align: center;
 }
 
 .title {
@@ -100,6 +104,10 @@ main {
     align-items: center;
     width: 100%;
     margin: auto;
+}
+
+#experience span {
+    color: var(--textColor_darkMode);
 }
 
 #experience h1 {
@@ -152,7 +160,6 @@ main {
     width: 90%;
     height: auto;
     margin: auto;
-    margin-top: 1em;
     margin-bottom: 5em;
     border: 1px solid black;
     border-radius: 1em;
@@ -175,13 +182,14 @@ main {
 
 .projects-col img {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: auto;
+    border-radius: 1em;
 }
 
 .projects-col dt {
-    font-weight: bold;
-    margin: .5em;
+    margin-top: 1em;
+    margin-bottom: -2em;
 }
 
 a {
@@ -190,12 +198,12 @@ a {
     font-weight: normal;
 }
 
-.projects-col img {
+/* .projects-col img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 1em;
-}
+} */
 
 #curriculum {
     text-align: center;

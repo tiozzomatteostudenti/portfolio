@@ -51,7 +51,7 @@
 }
 
 /* Palette automatica */
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         --primaryGradient: #FF4081;
         --secondaryGradient: #4d4d4d;
@@ -61,7 +61,7 @@
         --textColor: #FFFFFF;
         --bg: #252525
     }
-} */
+}
 
 
 
@@ -71,7 +71,7 @@ html {
     margin: auto;
     line-height: 1.5em;
 }
-
+/* 
 .container {
     text-align: center;
 }
@@ -128,7 +128,7 @@ input:focus+.slider {
 
 input:checked+.slider:before {
     transform: translateX(26px);
-}
+} */
 
 
 
