@@ -59,9 +59,7 @@ main {
 }
 
 #info {
-    width: 100%;
-    margin: auto;
-    color: #030303;
+    display: none;
 }
 
 #immagine {

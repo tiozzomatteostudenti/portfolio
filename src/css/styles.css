@@ -71,6 +71,7 @@ html {
     margin: auto;
     line-height: 1.5em;
 }
+
 /* 
 .container {
     text-align: center;
@@ -144,6 +145,10 @@ main {
 }
 
 /* ******* PER GENERALITÀ ******* */
+
+#description {
+    display: none;
+}
 
 #profile {
     display: flex;
