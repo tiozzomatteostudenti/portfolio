@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 24pt;
+    font-size: 40pt;
     line-height: 1em;
 }
 
@@ -90,7 +90,7 @@ main {
 
 .aboutme dt {
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 .aboutme dd {
@@ -108,6 +108,8 @@ main {
 
 #experience span {
     color: var(--textColor_darkMode);
+    font-size: 40pt;
+    padding: auto;
 }
 
 #experience h1 {
@@ -117,7 +119,6 @@ main {
     margin: auto;
     /* border: 1px solid black; */
 }
-
 
 .experience {
     display: flex;
@@ -145,7 +146,7 @@ main {
     border: 1px solid black;
     border-radius: 1em;
     background-color: var(--secondaryGradient);
-    width: 70%;
+    width: 80%;
     height: auto;
     align-self: center;
 }
@@ -198,22 +199,23 @@ a {
     font-weight: normal;
 }
 
-/* .projects-col img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 1em;
-} */
-
 #curriculum {
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
+#curriculum span {
+    font-size: 40pt;
+    padding: auto;
+}
+
 #cv {
     text-decoration: underline;
     font-weight: bold;
+    font-size: 40pt;
+    padding: auto;
+
 }
 
 #CV-container {
