@@ -25,7 +25,7 @@ main {
     --tertiaryGradient_darkMode: #00E676;
     --quadriaryGradient_darkMode: #343434;
     --senaryGradient_darkMode: #FFFFFF;
-    --textColor_darkMode: #FFFFFF;
+    --textColor_darkMode: #030303;
     --bg_darkMode: #252525
 }
 
@@ -54,8 +54,9 @@ main {
         --secondaryGradient: #4d4d4d;
         --tertiaryGradient: #00E676;
         --quadriaryGradient: #343434;
-        --senaryGradient: #FFFFFF;
+        --senaryGradient: #f9f4ea;
         --textColor: #FFFFFF;
+        --titleColor: #030303;
         --bg: #252525
     }
 }
@@ -145,6 +146,8 @@ main {
     width: 100%;
     margin: auto;
     font-size: 40pt;
+    color: var(--titleColor);
+    background-color: var(--senaryGradient);
 }
 
 #experience span {
@@ -190,6 +193,7 @@ main {
     width: 80%;
     height: auto;
     align-self: center;
+    color: var(--textColor);
 }
 
 #projects {
