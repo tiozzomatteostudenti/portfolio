@@ -157,7 +157,6 @@ main {
     margin: auto;
     margin-top: 1em;
     margin-bottom: 5em;
-    border: 1px solid black;
     border-radius: 1em;
 }
 
@@ -183,7 +182,6 @@ main {
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     border-radius: .5em;
     margin-bottom: .5em;
     background-color: var(--senaryGradient);
@@ -201,7 +199,7 @@ main {
     margin: auto;
     height: auto;
     margin-bottom: 5em;
-    border: 1px solid black;
+
     border-radius: 1em;
     flex-direction: column;
     position: relative;
@@ -220,7 +218,7 @@ main {
 #tecno,
 #city,
 #now {
-    border: 1px solid black;
+
     margin: 1em;
     border-radius: 1em;
     background-color: var(--secondaryGradient);
@@ -241,7 +239,7 @@ main {
 }
 
 #aboutme {
-    border: 1px solid black;
+
     margin: 1em;
     border-radius: 1em;
     background-color: var(--secondaryGradient);
@@ -259,6 +257,8 @@ main {
 #cv {
     text-decoration: underline;
     font-weight: bold;
+    color: var(--textColor_darkMode);
+
 }
 
 #CV-container {
@@ -269,9 +269,10 @@ main {
     border-radius: 1em;
     justify-content: center;
     margin-bottom: 5em;
-    border: 1px solid black;
     padding: 1em;
     background-color: var(--primaryGradient);
+    color: var(--textColor_darkMode);
+
 }
 
 #projects {
@@ -283,7 +284,6 @@ main {
     text-align: center;
     border-radius: 1em;
     padding: 1em 0;
-    border: 1px solid black;
     margin-bottom: 5em;
     background-color: var(--primaryGradient);
 }
@@ -312,7 +312,7 @@ main {
 .projects-col dt {
     font-weight: bold;
     padding-bottom: 1em;
-
+    color: var(--textColor_darkMode);
 }
 
 a {
@@ -350,7 +350,6 @@ a {
     margin: auto;
     height: auto;
     margin-bottom: 5em;
-    border: 1px solid black;
     border-radius: 1em;
     flex-direction: column;
     position: relative;
@@ -359,6 +358,9 @@ a {
 #divisore {
     display: flex;
     justify-content: space-evenly;
+    font-weight: bold;
+    color: var(--textColor_darkMode);
+
 }
 
 #prova {
@@ -367,7 +369,7 @@ a {
     padding: 1em 1em;
     margin: .6em -.6em;
     border-radius: 2%;
-    color: #030303;
+
 }
 
 #prova1 {
@@ -376,7 +378,7 @@ a {
     padding: 1em 1em;
     margin: .6em -.6em;
     border-radius: 2%;
-    color: #030303;
+
 }
 
 #prova2 {
@@ -385,7 +387,11 @@ a {
     padding: 1em 1em;
     margin: .6em -.6em;
     border-radius: 2%;
-    color: #030303;
+}
+
+#divisore a {
+    color: var(--textColor_darkMode);
+
 }
 
 dl#footdef dt {
@@ -403,4 +409,6 @@ dl#footdef dt {
 #rights {
     text-align: center;
     padding-bottom: 1em;
+    color: var(--textColor_darkMode);
+
 }
