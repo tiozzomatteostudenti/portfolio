@@ -50,14 +50,22 @@ main {
 /* Palette automatica */
 @media (prefers-color-scheme: dark) {
     :root {
-        --primaryGradient: #FF4081;
+        /* --primaryGradient: #35bc66;
         --secondaryGradient: #4d4d4d;
         --tertiaryGradient: #00E676;
         --quadriaryGradient: #343434;
         --senaryGradient: #f9f4ea;
         --textColor: #FFFFFF;
         --titleColor: #030303;
-        --bg: #252525
+        --bg: #252525 */
+
+        --primaryGradient: #e3dbcc;
+        --secondaryGradient: #faf6f1;
+        --tertiaryGradient: #ead6ad;
+        --quadriaryGradient: #efe0c1;
+        --senaryGradient: #f9f4ea;
+        --textColor: black;
+        --bg: #F9F9F9;
     }
 }
 
@@ -68,7 +76,7 @@ main {
         --tertiaryGradient: #ead6ad;
         --quadriaryGradient: #efe0c1;
         --senaryGradient: #f9f4ea;
-        --textColor: #030303;
+        --textColor: black;
         --bg: #F9F9F9;
 
     }
@@ -173,7 +181,7 @@ main {
 #tecno,
 #city,
 #now {
-    border: 1px solid black;
+
     border-radius: 1em;
     background-color: var(--secondaryGradient);
     width: 80%;
@@ -195,7 +203,6 @@ main {
     height: auto;
     margin: auto;
     margin-bottom: 5em;
-    border: 1px solid black;
     border-radius: 1em;
     position: relative;
 }
@@ -224,6 +231,7 @@ main {
 .projects-col dt {
     margin-top: 1em;
     margin-bottom: -2em;
+    color: var(--textColor);
 }
 
 a {
@@ -236,11 +244,13 @@ a {
     text-align: center;
     align-items: center;
     justify-content: center;
+
 }
 
 #curriculum span {
     font-size: 40pt;
     padding: auto;
+    color: var(--textColor);
 }
 
 #cv {
@@ -248,7 +258,7 @@ a {
     font-weight: bold;
     font-size: 40pt;
     padding: auto;
-
+    color: var(--textColor);
 }
 
 #CV-container {
@@ -259,7 +269,6 @@ a {
     border-radius: 1em;
     justify-content: center;
     margin-bottom: 5em;
-    border: 1px solid black;
     padding: 1em;
     background-color: var(--primaryGradient);
 }
@@ -271,13 +280,14 @@ a {
     justify-content: center;
     padding: 1em;
     background-color: var(--primaryGradient);
-    width: 90%;
+    width: 85%;
     height: auto;
     margin: auto;
     margin-bottom: 5em;
-    border: 1px solid black;
     border-radius: 1em;
     position: relative;
+    color: var(--textColor);
+
 }
 
 #prova,
@@ -292,13 +302,12 @@ a {
     height: auto;
     align-self: center;
     margin: 1em;
+    color: var(--textColor);
 }
-
 
 #footdef dt {
     font-weight: bolder;
 }
-
 
 .print {
     display: none;
@@ -307,6 +316,7 @@ a {
 #rights {
     text-align: center;
     padding-bottom: 1em;
+    color: var(--textColor);
 }
 
 #email {
@@ -314,10 +324,14 @@ a {
     margin-top: auto;
 }
 
+#footer a {
+    color: var(--textColor);
+}
+
 footer p,
 span {
     text-align: center;
-    color: var(--text-100);
     padding-top: 1em;
     font-size: 15pt;
+    color: var(--textColor);
 }
