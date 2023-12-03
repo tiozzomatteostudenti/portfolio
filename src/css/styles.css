@@ -234,12 +234,14 @@ li {
     text-align: center;
     align-items: center;
     justify-content: center;
+    color: var(--textColor);
+
 }
 
 #cv {
     text-decoration: underline;
     font-weight: bold;
-    color: var(--textColor_darkMode);
+    color: var(--textColor);
 
 }
 
@@ -253,8 +255,7 @@ li {
     margin-bottom: 5em;
     padding: 1em;
     background-color: var(--primaryGradient);
-    color: var(--textColor_darkMode);
-
+    color: var(--textColor);
 }
 
 #projects {
@@ -294,7 +295,7 @@ li {
 .projects-col dt {
     font-weight: bold;
     padding-bottom: 1em;
-    color: var(--textColor_darkMode);
+    color: var(--textColor);
 }
 
 a {
@@ -341,7 +342,7 @@ a {
     display: flex;
     justify-content: space-evenly;
     font-weight: bold;
-    color: var(--textColor_darkMode);
+    color: var(--textColor);
 
 }
 
@@ -391,6 +392,5 @@ dl#footdef dt {
 #rights {
     text-align: center;
     padding-bottom: 1em;
-    color: var(--textColor_darkMode);
-
+    color: var(--textColor);
 }
